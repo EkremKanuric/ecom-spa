@@ -1,0 +1,35 @@
+.brand
+{
+position: absolute;
+left: 2rem;
+font-size: 3rem; 
+} 
+.toolbar{
+    position: relative; 
+    color: black;
+}
+.spacer{
+    flex: 1;
+}
+.center-items{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.center-items a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.mat-toolbar {
+    height: 6rem;
+}
+.link{ 
+    padding: 2rem;
+    font-size: 1.5rem; 
+}
+.center-items a:hover{
+    color: white; 
+}
