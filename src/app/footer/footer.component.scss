@@ -1,0 +1,22 @@
+.footer{
+    margin-top: 5rem;
+    width: 100%;
+    min-height: 7rem; 
+    background-color: #c2185b;
+    display: flex;  
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.footer i{
+    margin: 0 5rem;
+}
+i{
+    color: white;
+}
+i:hover{
+    color: black;
+}
