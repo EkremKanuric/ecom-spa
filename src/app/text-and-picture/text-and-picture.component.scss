@@ -1,0 +1,16 @@
+.contentWithPicture{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 0;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contentWithPicture img{
+    width: 35%;
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.contentWithPicture{
+    text-align: center;
+}

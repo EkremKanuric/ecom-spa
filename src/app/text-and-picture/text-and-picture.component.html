@@ -1,0 +1,16 @@
+<section class="contentWithPicture">
+@if (textFirst != null){
+    <div class="contentAndHeader">
+        <h2>{{content.header}}</h2>
+        <p>{{content.text}}</p>
+    </div>
+    <img src={{image.link}} alt={{image.alt}}>
+}
+@else{
+    <img src={{image.link}} alt={{image.alt}}>
+    <div class="contentAndHeader">
+        <h2>{{content.header}}</h2>
+        <p>{{content.text}}</p>
+    </div>
+}
+</section>
