@@ -8,3 +8,13 @@
 </app-text-and-picture>
 <app-text-and-picture [content]="content" [image]="imageL" >
 </app-text-and-picture>
+<section class="carouselSection">
+    <h1 id="carouselHeading">CarouselSection</h1> 
+        <div class="carousel">
+            <button (click)="prevSlide()"><span>&#10094;</span></button>
+            <div class="carousel-images"> 
+                <img *ngFor="let item of images" [src]="item.src" [alt]="item.src" [class.active]="item.active">
+            </div>
+            <button (click)="nextSlide()"><span>&#10095;</span></button>
+          </div> 
+</section>

@@ -1,14 +1,14 @@
-.sectionSettings {
-    width: 80%; 
-    margin: 0 auto; 
+.sectionSettings { 
+  width: 80%;
+    margin: 10rem auto; 
     height: 30rem;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center; 
   }
   
   .pictureSettings {
-    max-width: 33%;
+    max-width: 33%; 
     width: auto; 
     height: fit-content;
     margin: 0 4rem; 

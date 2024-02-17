@@ -1,11 +1,43 @@
+
+
 .heading{
     text-align: center;
-    margin: 0 8rem;
+    margin: 5rem 8rem;
 }
 .heading h1{
     margin-bottom: 5rem;
-    font-size: 60px;
+} 
+.carouselSection{
+    margin: 10rem; 
 }
-.heading p{
-    font-size: large;
+#carouselHeading{ 
+    padding: 5rem; 
+    text-align: center;
+}   
+.carouselSection img:not(.active){
+    display: none; 
+     
+} 
+.carousel{
+    --carousel-height: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 5rem; 
+}
+.carousel img {
+    height: var(--carousel-height);
+    width: auto;
+}
+.carousel button{
+    width: 5rem;
+    background-color: #c2185b;
+    border: 0; 
+    height: var(--carousel-height);
+}
+.carousel button:hover{
+    background-color: white;
+    border: 0.5px solid;
+}
+.carousel button span{
+    font-size: 40px;
 }
