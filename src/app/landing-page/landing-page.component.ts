@@ -3,8 +3,8 @@ import { PicturesOnlyComponent } from '../pictures-only/pictures-only.component'
 import { Image } from '../interfaces/Image';
 import { TextAndPictureComponent } from '../text-and-picture/text-and-picture.component';
 import { Content } from '../interfaces/Content';
-import { CommonModule } from '@angular/common';
-import { compileNgModule } from '@angular/compiler';
+import { CommonModule } from '@angular/common'; 
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-landing-page',
@@ -13,7 +13,13 @@ import { compileNgModule } from '@angular/compiler';
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.scss'
 })
-export class LandingPageComponent { 
+export class LandingPageComponent {
+  
+  constructor(private titleService: Title) { }
+
+  ngOnInit(){
+    this.titleService.setTitle("CSB");
+  }
 
   content : Content = {
     header : "HEADING SECTION",

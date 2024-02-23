@@ -1,10 +1,18 @@
 .products{  
-    text-align: center;
-    margin-bottom: 10rem;
+    text-align: center;  
+    width: 80%;
 }
 .items{ 
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: row; 
+    justify-content: center;
+    column-gap: 3rem; 
+    row-gap: 3rem;
     flex-wrap: wrap;
+    margin-top: 10rem;
 } 
+.centerProducts{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
